@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="script.js" defer></script>
+    <title>kleurplaat</title>
+  </head>
+
+  <body>
+    <h1><a href="index.html">kleurplaat</a></h1>
+    <form action="" method="get" name="myform">
+      <fieldset id="kleur">
+        <label for="info">info</label>
+        <input type="radio" name="kleur" id="info" value="info" checked />
+        <label class="bg-rood" for="rood">rood</label>
+        <input type="radio" name="kleur" id="rood" value="rood" />
+        <label class="bg-groen" for="groen">groen</label>
+        <input type="radio" name="kleur" id="groen" value="groen" />
+        <label class="bg-blauw" for="blauw">blauw</label>
+        <input type="radio" name="kleur" id="blauw" value="blauw" />
+        <label class="bg-wit" for="wit">wit</label>
+        <input type="radio" name="kleur" id="wit" value="wit" />
+      </fieldset>
+
+      <fieldset id="grid">
+        <label for="breedte">breedte</label>
+        <input
+          type="number"
+          name="breedte"
+          id="breedte"
+          min="0"
+          max="20"
+          value="5"
+        />
+        <label for="hoogte">hoogte</label>
+        <input
+          type="number"
+          name="hoogte"
+          id="hoogte"
+          min="0"
+          max="20"
+          value="5"
+        />
+      </fieldset>
+
+      <input type="button" id="submit" value="submit" />
+      <input type="button" id="reset" value="reset" />
+      <input type="button" id="save" value="save" />
+      <input type="file" id="load" value="load" />
+    </form>
+  </body>
+</html>

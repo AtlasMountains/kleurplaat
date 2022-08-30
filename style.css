@@ -1,0 +1,25 @@
+.bg-rood {
+    background-color: lightcoral;
+}
+
+.bg-groen {
+    background-color: lightgreen;
+}
+
+.bg-blauw {
+    background-color: lightblue;
+}
+.bg-wit{
+    background-color: white;
+}
+
+body{
+    background-color: bisque;
+}
+table {
+    width: 100%;
+    height: 50vh;
+}
+td {
+    background-color: white;
+}
